@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 8000
 
 
 
-// connectDB()
+connectDB()
 
 const server = app.listen(
   PORT,
